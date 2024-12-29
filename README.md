@@ -1,9 +1,9 @@
-# bash_scripts
+# EC2-Port_Scanner
 
-## script.sh
-
-This script automates the process of identifying AWS EC2 instances and their associated security groups (SGs) that have a specified port open.
-
+This scripts automate the process of identifying AWS EC2 instances and their associated security groups (SGs) that have a specified port open.
+ - script.sh is written in bash
+ - instances.py is written in Python3
+ 
  - ### Input arguments
     1. <region>: The AWS region to query (e.g., us-east-1).
     2. <port>: The port to check for open status (e.g., 443 for HTTPS).
