@@ -5,9 +5,9 @@ This scripts automate the process of identifying AWS EC2 instances and their ass
  - instances.py is written in Python3
  
  - ### Input arguments
-    1. <region>: The AWS region to query (e.g., us-east-1).
-    2. <port>: The port to check for open status (e.g., 443 for HTTPS).
-   3. <running (1 or 0)>: Specifies whether to include only running instances (1) or both running and stopped instances (0).
+   .1. <region>: The AWS region to query (e.g., us-east-1).
+   .2. <port>: The port to check for open status (e.g., 443 for HTTPS).
+   .3. <running (1 or 0)>: Specifies whether to include only running instances (1) or both running and stopped instances (0).
  - ### Example output
  For the following input:  
  `./script.sh us-east-1 443 1`  
